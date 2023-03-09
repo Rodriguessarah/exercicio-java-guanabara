@@ -9,7 +9,7 @@ public class exercicio08 {
 		double metros, milimetros, centimetros, decimetros, decametro, hectometro, quilometro;
 		
 		System.out.println(" Informe a distanca em metros");
-		metros = read.nextDouble();
+		metros = read.nextDouble(); 
 		
 		
 		milimetros = metros*1000;

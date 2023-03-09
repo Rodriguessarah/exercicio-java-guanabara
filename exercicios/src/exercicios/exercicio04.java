@@ -11,7 +11,7 @@ public class exercicio04 {
 		int num2 = read.nextInt();
 		
 		int soma = num1 + num2;
-		
+		 
 		System.out.println(" A soma é " + soma );
 	}
 

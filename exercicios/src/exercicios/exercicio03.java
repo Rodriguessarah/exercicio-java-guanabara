@@ -9,7 +9,7 @@ public class exercicio03 {
 		String nomeFunc = read.nextLine();
 		
 		System.out.println("salario");
-		double salario = read.nextDouble();
+		double salario = read.nextDouble(); 
 		
 		System.out.println( " O funcionario " + nomeFunc + " tem um salario de " + salario + " em junho");
 		

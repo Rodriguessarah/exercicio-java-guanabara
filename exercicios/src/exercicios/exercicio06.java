@@ -6,7 +6,7 @@ public class exercicio06 {
 		
 		Scanner read = new Scanner (System.in);	
 		
-		int num, antec, suces;
+		int num, antec, suces; 
 		
 		System.out.println("informe um numero inteiro");
 		num = read.nextInt();

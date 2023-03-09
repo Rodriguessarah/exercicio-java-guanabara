@@ -8,7 +8,7 @@ public class exercicio02 {
 		System.out.println("Qual o seu nome? ");
 		
 		String nome = read.nextLine();
-		System.out.println(" ola "  + nome + " seja bem vindo");
+		System.out.println(" ola "  + nome + " seja bem vindo"); 
 		
 	}
 

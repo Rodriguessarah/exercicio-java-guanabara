@@ -7,7 +7,7 @@ public class exercicio05 {
 		Scanner read = new Scanner (System.in);
 		
 		double nota1, nota2;
-		double media;
+		double media; 
 		
 		System.out.println("Informe a primeira nota");
 		nota1 = read.nextDouble();

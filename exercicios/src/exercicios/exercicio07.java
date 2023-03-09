@@ -7,7 +7,7 @@ public class exercicio07 {
 		
 		Scanner read = new Scanner (System.in);
 		
-		double num, dobro, terco;
+		double num, dobro, terco; 
 		
 		System.out.println(" informe um numero real");
 		num = read.nextDouble();
