@@ -8,11 +8,11 @@ public class exercicio09 {
 		
 		double reais;
 		float dolar;
-		Scanner read = new Scanner (System.in);
-		
-		System.out.println("informe o valor em reais");
-		reais = read.nextDouble();
-		//US$1,00 = R$5,17 //
+		try (Scanner read = new Scanner (System.in)) {
+			System.out.println("informe o valor em reais");
+			reais = read.nextDouble();
+			//US$1,00 = R$5,17 //
+		}
 		
 		dolar =  (float) (reais/5.17);
 		System.out.printf(" o valor em dolares é de US$ %.2f", dolar);

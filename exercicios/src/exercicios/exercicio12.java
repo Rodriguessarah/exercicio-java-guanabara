@@ -7,10 +7,12 @@ public class exercicio12 {
 		
 		double precoProduto, precoPromo;
 		
-		Scanner read = new Scanner(System.in);
+		try (Scanner read = new Scanner(System.in)) {
+			System.out.println(" informe o valor do produto:");
+			precoProduto = read.nextDouble();
+		}
 		
-		System.out.println(" informe o valor do produto:");
-		precoProduto = read.nextDouble();
+		
 		
 		//PREÇO PROMOCIONAL:  5% de desconto //
 		

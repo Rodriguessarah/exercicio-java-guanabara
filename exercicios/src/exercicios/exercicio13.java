@@ -7,10 +7,10 @@ public class exercicio13 {
 		
 		double salario, novoSalario;
 		
-		Scanner read = new Scanner(System.in);
-		
-		System.out.print("Digite o salário do funcionário para receber o aumento: ");
-		salario = read.nextDouble();
+		try (Scanner read = new Scanner(System.in)) {
+			System.out.print("Digite o salário do funcionário para receber o aumento: ");
+			salario = read.nextDouble();
+		}
 		
 		novoSalario = salario+((15.0/100.0)*salario);
 		
