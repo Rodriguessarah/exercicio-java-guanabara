@@ -1,7 +1,7 @@
 package exercicios;
 import java.util.Scanner;
 
-public class exercicio03 {
+public class Exercicio03 {
 	public static void main(String[] args) {
 		
 		try (Scanner read = new Scanner (System.in)) {
