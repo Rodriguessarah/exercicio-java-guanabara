@@ -2,7 +2,7 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class Exercicio44 {
+public class Exercicio45 {
 
 	public static void main(String[] args) {
 		
@@ -18,12 +18,19 @@ public class Exercicio44 {
 			System.out.println("Digite o incremento");
 			incremento = read.nextInt();
 		}
-		 for ( x=valorInicial; x <= valorFinal; x = x+ incremento) {
+		for ( x=valorInicial; x <= valorFinal; x = x+ incremento) {
 			 
 			 System.out.println(x +" ");
-		 } 
+		 } if (valorInicial >= valorFinal) {
+			 for ( x=valorInicial; x >= valorFinal; x = x- incremento) {
+				 
+				 System.out.println(x +" ");
+			 
+		 }
 		
 		
 	}
 
+	}
 }
+
