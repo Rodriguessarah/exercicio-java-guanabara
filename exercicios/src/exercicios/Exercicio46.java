@@ -4,7 +4,7 @@ public class Exercicio46 {
 
 	public static void main(String[] args) {
 		
-int x, soma = 0;
+		int x, soma = 0;
 		
 		for(x = 6; x <= 100; x = x + 2) {
 			
